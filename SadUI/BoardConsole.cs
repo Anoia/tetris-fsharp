@@ -1,6 +1,5 @@
 ﻿using System;
 using Library1;
-using Microsoft.FSharp.Core;
 using SadConsole;
 using SadConsole.Consoles;
 using SadConsole.Input;
@@ -28,7 +27,7 @@ namespace SadTest
         {
         }
 
-        public Tetris.GameState State
+        private Tetris.GameState State
         {
             get { return _state; }
             set
@@ -66,7 +65,7 @@ namespace SadTest
             return false;
         }
 
-        public void DrawBoard(Tetris.Tile[,] board)
+        private void DrawBoard(Tetris.Tile[,] board)
         {
             for (var r = 0; r < board.GetLength(0); r++)
             {
@@ -96,7 +95,7 @@ namespace SadTest
             }
         }
 
-        public void DrawShape(Tetris.Shape shape)
+        private void DrawShape(Tetris.Shape shape)
         {
             var color = GetColorForTetromino(shape.name);
             DrawBlock(shape.coords.Item1, shape.pos, color);

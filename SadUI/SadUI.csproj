@@ -90,7 +90,7 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Library1\GameLogic.fsproj">
+    <ProjectReference Include="..\GameLogic\GameLogic.fsproj">
       <Project>{9572187d-d60a-4f16-91bd-6943b87aa07a}</Project>
       <Name>GameLogic</Name>
     </ProjectReference>
