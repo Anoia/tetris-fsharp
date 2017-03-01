@@ -90,9 +90,9 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Library1\Library1.fsproj">
+    <ProjectReference Include="..\Library1\GameLogic.fsproj">
       <Project>{9572187d-d60a-4f16-91bd-6943b87aa07a}</Project>
-      <Name>Library1</Name>
+      <Name>GameLogic</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

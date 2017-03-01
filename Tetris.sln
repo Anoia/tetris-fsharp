@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Library1", "Library1\Library1.fsproj", "{9572187D-D60A-4F16-91BD-6943B87AA07A}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GameLogic", "GameLogic\GameLogic.fsproj", "{9572187D-D60A-4F16-91BD-6943B87AA07A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SadTest", "SadTest\SadTest.csproj", "{10E06497-E369-4DAC-9D26-B0D822C2A865}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SadUI", "SadUI\SadUI.csproj", "{10E06497-E369-4DAC-9D26-B0D822C2A865}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
